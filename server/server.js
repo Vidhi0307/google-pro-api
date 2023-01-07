@@ -3,6 +3,7 @@ const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 
 // Import the two parts of a GraphQL schema
+
 const { typeDefs, resolvers } = require('./schema');
 const db = require('./config/connection');
 
