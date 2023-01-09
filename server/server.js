@@ -1,4 +1,5 @@
 const express = require('express');
+
 // Import the ApolloServer class
 const { ApolloServer } = require('apollo-server-express');
 
@@ -7,7 +8,7 @@ const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./schema');
 const db = require('./config/connection');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT ;
 const server = new ApolloServer({
   typeDefs,
   resolvers
