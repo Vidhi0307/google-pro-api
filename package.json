@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
+  "engine":{
+    "node": "18.9.0",
+    "npm":"8.19.1"
+  },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "cd server && npm start",
