@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
-  "engine": {
-    "node": "18.9.0",
-    "npm": "8.19.1"
-  },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "cd server && npm start",
@@ -14,14 +10,17 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "heroku-postbuild": "cd client && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@work.github.com:arosenkranz/googlebooks-app.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^5.1.0"
-  },
   "dependencies": {
-    "jsonwebtoken": "^9.0.0",
-    "react-router-dom": "^6.6.2"
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
   }
 }
