@@ -1,11 +1,10 @@
-
 # Book-Search-Engine
 
 Google Books API search engine built in MERN Stack.
 
 ### Github : https://github.com/Vidhi0307/google-pro-api/
 
-### Website : [https://book-search-99.herokuapp.com/](https://google-pro-api.herokuapp.com/)
+### Website : https://google-pro-api.herokuapp.com/
 
 ## Description
 
@@ -26,41 +25,6 @@ Google Books API search engine built in MERN Stack. Other than searching for boo
 - Logged in users will are able to save their favorite books as well as delete them.
 - Saved books are stored in their account, so next time they login, the books are still in their account to be viewed.
 
-## Install
-
-Some basic Git commands are:
-
-```
-$ git clone https://github.com/Vidhi0307/google-pro-api/
-$ cd google-pro-api
-$ npm install
-
-
-## Setup
-
-```
-
-Create .env file that include:
-
-- MONGO_URI
-
-```
-
-## Start development
-
-```
-
-$npm run develop
-
-```
-
-## Simple build for production
-
-```
-
-$ npm run build
-
-```
 
 
 
